@@ -1,0 +1,200 @@
+\documentclass[10pt]{article}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{longtable}
+\title{\bfseries{\Huge{Diego Casella}\newline \small Curriculum Vitae}}
+\author{}
+\date{}
+
+\usepackage{array, xcolor}
+\definecolor{lightgray}{gray}{0.8}
+\newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
+\newcolumntype{R}{p{0.8\textwidth}}
+\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
+
+\usepackage{textcomp}
+\usepackage{multirow}
+%% ttf-marvosym
+\usepackage{marvosym}
+\usepackage{graphics}
+
+\begin{document}
+\vspace{10pt}
+
+%% name, mail and picture
+\begin{minipage}{0.65\textwidth}
+\begingroup
+\let\center\flushleft
+\let\endcenter\endflushleft
+\maketitle
+\endgroup
+\begin{minipage}[ht]{0.48\textwidth}
+vicolo Bassanese 12\\
+31044, Montebelluna\\
+Treviso
+\end{minipage}
+\begin{minipage}[ht]{0.48\textwidth}
+\Mobilefone \hspace{5pt}+39 333 7577127\\
+\Info \hspace{5pt} polentino911.wordpress.com\\
+\Letter \hspace{8pt}polentino911@gmail.com
+\end{minipage}
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
+\includegraphics{foto_s.jpg}
+\end{minipage}
+
+%% name, mail
+% \maketitle
+% \begin{minipage}{1.0\textwidth}
+% \begin{minipage}[ht]{0.5\textwidth}
+% vicolo Bassanese 12\\
+% 31044, Montebelluna\\
+% Treviso
+% \end{minipage}
+% \begin{minipage}[ht]{0.5\textwidth}
+% \Mobilefone \hspace{5pt}+39 333 7577127\\
+% \Info \hspace{5pt} polentino911.wordpress.com\\
+% \Letter \hspace{8pt}polentino911@gmail.com
+% \end{minipage}
+% \end{minipage}
+
+
+% %% personal info
+% %% professional experience
+% \begin{minipage}[ht]{0.48\textwidth}
+% vicolo Bassanese 12\\
+% 31004, Montebelluna (TV)\\
+% \end{minipage}
+% \begin{minipage}[ht]{0.48\textwidth}
+% cellulare: +39 333 7577127\\
+% email: polentino911@gmail.com\\
+% blog: polentino911.wordpress.com
+% \end{minipage}
+
+%% info
+\section*{Info}
+\begin{tabular}{L!{\VRule}R}
+Nato il& 26 Ottobre 1985, Asolo\\
+Residenza& Montebelluna\\
+Cittadinanza& Italiana\\
+\vspace{5pt}
+\end{tabular}
+
+%% professional experience
+\section*{Esperienze Lavorative}
+\begin{longtable}{L!{\VRule}R}
+2012--oggi&{\bf SimNumerica srl}\\
+& Dopo il conseguimento della Laurea, collaboro full-time con SimNumerica,
+concentrandomi allo sviluppo e miglioramento di $\mu$Lab.
+\vspace{5pt}\\
+
+2010--2012&{\bf SimNumerica srl}\\
+& Collaborazione part-time con SimNumerica per lo sviluppo di un software di co-simulazione di
+sistemi di controllo embedded chiamato $\mu$Lab, principalmente realizzato in linguaggio
+Java, con parti critiche scritte in C.
+\vspace{5pt}\\
+
+Estate 2010&{\bf Google Inc.}\\
+& Nuovamente selezionato per partecipare al Google Summer of Code, con l'obiettivo di
+realizzare una libreria per l'autenticazione ed il livello di sicurezza dei plasmoidi
+scaricati attraverso la rete, attraverso il riconoscimento delle firme e delle chiavi PGP
+presenti nel sistema.
+\vspace{5pt}\\
+
+Estate 2009&{\bf Google Inc.}\\
+& Selezionato per partecipare al Google Summer of Code, evento organizzato da Google
+per permettere agli studenti di lavorare come programmatori all'interno di progetti
+opensource, venendo retribuiti da Google stessa.
+\newline Nello specifico, ho contribuito per KDE (www.kde.org) alla realizzazione di un
+ambiente di sviluppo integrato per la creazione di plasmoidi o desktop widget, scritto
+in C++ e con l'uso del framework Qt.
+\vspace{5pt}\\
+
+2007--2009&{\bf Elettricista/Programmatore PLC, INPROS srl}\\
+&Dal momento che INPROS srl \'{e} nata come conseguenza dell'
+entrata di un socio in DBLtec, le mansioni sono rimaste
+invariate.
+\vspace{5pt}\\
+
+2004--2007& {\bf Elettricista/Programmatore PLC,
+DBLtec snc}\\&Mansioni di perito elettrotecnico nel cablaggio, nella
+riparazione e realizzazione di presse industriali per
+lo stampaggio della plastica, con capacit\'{a} di operare
+modifiche su commessa del cliente che riguardassero il
+programma presente nel PLC. Inoltre ho realizzato le
+versioni in inglese dei \emph{Manuale d'Uso e
+Manutenzione} dei macchinari prodotti.
+\vspace{5pt}\\
+
+1999--2004 & {\bf Stazione di Servizio
+AGIP n\textsuperscript{\textopenbullet} 3610 di De Bortoli W. , Benzinaio}\\&
+Mansioni di benzinaio e pulizia interni ed esterni d'auto.
+\vspace{5pt}\\
+\end{longtable}
+
+%% education
+\section*{Istruzione}
+\begin{longtable}{L!{\VRule}R}
+2004--2012&{\bf Laurea Triennale in Ingegneria dell'Automazione, Universit\'{a} di Padova.}\\
+&Voto di Laurea: $80/110$\vspace{5pt}\\
+1999--2004&Diploma di Perito in Elettrotecnica ed Automazione Industriale, ITIS "E. Barsanti" Castelfranco V.to .\\
+&Voto: $90/100$\vspace{5pt}
+\end{longtable}
+
+
+%% languages
+\section*{Lingue}
+\begin{longtable}{L!{\VRule}R}
+Italiano& Madrelingua\vspace{5pt}\\
+Inglese&
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multicolumn{2}{|c|}{Comprensione} &
+\multicolumn{2}{c|}{Comunicazione} &
+Scrittura \\
+\hline
+Ascolto & Lettura & Interazione & Produzione & \\
+B1 & B2 & B1 & A2 & B2\\
+\hline
+% \calligra{B1} & \calligra{B2} & \calligra{B1} & \calligra{A2} & \calligra{B2}\\
+\end{tabular}
+\end{longtable}
+
+
+%% computer skills\section*{Lingue}
+\section*{Competenze Informatiche}
+\begin{longtable}{L!{\VRule}R}
+Linguaggi& C++, Java, Assembly, C, JavaScript, \LaTeX , HTML e CSS, QML \vspace{5pt}\\
+Frameworks& Qt Toolkit, C++ STL, Boost Library, jQuery \vspace{5pt}\\
+Piattaforme& GNU/Linux, Microsoft\textsuperscript{\textcopyright} Windows
+\textsuperscript{\textregistered} (XP/7) \vspace{5pt}\\
+Strumenti& QtCreator IDE, Eclipse IDE, Netbeans IDE, CMake (cross-platform,
+opensource build system), Git, Subversion, Linux shell \vspace{5pt}
+\end{longtable}
+
+
+%% additional info
+\section*{Informazioni Addizionali}
+\begin{longtable}{L!{\VRule}R}
+& Come avete potuto constatare dalla descrizione del mio cv, ho iniziato da giovanissimo
+a confrontarmi col mondo del lavoro. Ho da sempre voluto integrare le conoscenze teoriche
+acquisite con gli studi con le realtà pratiche esistenti in azienda; per questo motivo,
+sin dall'inizio della mia carriera universitaria, ho deciso di trovarmi un lavoro che
+corrispondesse all mio corso di studi.
+\newline
+Nel frattempo, complici dei corsi di informatica ed un amico smanettone, mi sono avvicinato
+al mondo di Linux, della programmazione e dell'opensource. Questa è diventata una passione
+che col tempo mi ha spinto a studiare autonomamente il C++ e frameworks come Qt, fino a
+spingermi a tentare di lavorare due estati (nel 2009 e 2010) come programmatore,
+finanziato da Google.
+\end{longtable}
+
+% \multicolumn{2}{c}{Comunicazione} \\
+% \multicolumn{2}{c}{Scrittura}
+
+% \begin{tabular}{c|c|c}
+% Comprensione & Comunicazione & Scrittura \\
+% asd & asd & asd 
+% \end{tabular}
+
+
+\end{document}

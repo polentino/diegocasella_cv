@@ -1,0 +1,213 @@
+\documentclass[10pt]{article}
+\usepackage[margin=1.5cm]{geometry}
+\usepackage{longtable}
+
+\title{\bfseries{\Huge{Diego Casella}\newline \small Curriculum Vitae}}
+\author{}
+\date{}
+
+\usepackage{array, xcolor}
+\definecolor{lightgray}{gray}{0.8}
+\newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
+\newcolumntype{R}{p{0.8\textwidth}}
+\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
+
+\usepackage{textcomp}
+\usepackage{multirow}
+%% ttf-marvosym
+\usepackage{marvosym}
+\usepackage{graphics}
+\usepackage[utf8]{inputenc} %% per le lettere accentate nei links
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black,
+}
+
+\begin{document}
+\vspace{10pt}
+
+%% name, mail and picture
+\begin{minipage}{0.65\textwidth}
+\begingroup
+\let\center\flushleft
+\let\endcenter\endflushleft
+\maketitle
+\endgroup
+\begin{minipage}[ht]{0.48\textwidth}
+vicolo Bassanese 12\\
+31044, Montebelluna\\
+Treviso
+\end{minipage}
+\begin{minipage}[ht]{0.48\textwidth}
+\Mobilefone \hspace{5pt}+39 333 7577127\\
+%\Info \hspace{5pt} polentino911.wordpress.com\\
+\\
+%\Letter \hspace{8pt}polentino911@gmail.com
+\Letter \hspace{8pt}diegocasella.mail@gmail.com
+\end{minipage}
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
+\includegraphics{foto_s.jpg}
+\end{minipage}
+
+%% info
+\section*{Info}
+\begin{tabular}{L!{\VRule}R}
+Date of birth& October 26, 1985\\
+Residence& Montebelluna\\
+Nationality& Italian
+\vspace{5pt}
+\end{tabular}
+
+%% work experience
+\section*{Work Experience}
+\begin{longtable}{L!{\VRule}R}
+January 2014--&{\bf University of Padova, Department of Mathemaics}\\
+current& Research and collaboration activities, followed by the seminars below (freely available at
+\url{https://gitorious.org/unipd\_seminars/unipd\_seminars/}, italian only):
+\begin{itemize}
+ \item Co-Simulazione di un sistema di controllo a microcontrollore;
+ \item Linguaggi e strumenti per applicativi software di simulazione intensiva;
+ \item Accelerazione GPU nella simulazione-controllo-identificazione di sistemi fisici;
+ \item IaaS/SaaS computing, storage;
+ \item Cloud Computing;
+ \item Web Apps;
+ \item Continuous Integration;
+\end{itemize}
+
+\vspace{5pt}\\
+
+January 2014 --&{\bf SimNumerica srl}\\
+current& $\mu$Lab Lead developer, with tasks spanning from product development, website and server maintenance, REST API development etc...
+\vspace{5pt}\\
+
+October 2012--&{\bf SimNumerica srl}\\
+December 2013& Full-time collaboration with SimNumerica srl right after graduation,
+aimed at increase the amount of devices supported and improve
+its usability and User eXperience/Interface.
+\vspace{5pt}\\
+
+2010--2012&{\bf SimNumerica srl}\\
+& Part-time collaboration with SimNumerica\footnote{
+\href{http://www.simnumerica.com/}{http://www.simnumerica.com/} (italian only)
+} srl to help developing a co-simulation software
+for embedded devices called $\mu$Lab\footnote{ \href{http://www.simnumerica.com/content/che-cos\%C3\%A8-mlab}{http://www.simnumerica.com/content/che-cos\'e-mlab} 
+ (italian only)} 
+ written in Java, with critical parts in C language.
+\vspace{5pt}\\
+
+May--&{\bf Google Inc.}\\
+September 2010& I've been chosen for the second year in a row as Google Summer of Code student; that year
+my job was to develop a library to authenticate and assign the security level of Plasma widgets
+downloaded from the internet\footnote{
+\href{http://polentino911.wordpress.com/2010/08/13/authentication-framework-closing-the-circle-screencast/}{http://polentino911.wordpress.com/2010/08/13/authentication-framework-closing-the-circle-screencast/}}
+, using GPG sign, recognize the and
+categorize them according to they keys available in the user computer.
+\vspace{5pt}\\
+
+May--&{\bf Google Inc.}\\
+September 2009& I've been selected to partecipate at Google Summer of Code, an annual event promoted by
+Google which aims to provide a summer job in the IT field to students willing to work on
+opensource projects. In my case, I choose to work with KDE (www.kde.org) with the purpose of
+developing an IDE for their Plasma widgets\footnote{
+\href{http://polentino911.wordpress.com/2009/08/09/some-improvements-on-plasmate-timeline/}{http://polentino911.wordpress.com/2009/08/09/some-improvements-on-plasmate-timeline/}}
+, written in C++ and using Qt framework.
+\vspace{5pt}\\
+
+2007--2009&{\bf Electrician/PLC Developer, INPROS srl}\\
+& INPROS srl was born because a new associate joined DBLtec, therefore my tasks were the same
+as in DBLtec.
+\vspace{5pt}\\
+
+2004--2007& {\bf Electrician/PLC Developer,
+DBLtec snc}\\&
+Electrical engineering technician tasks working on cabling, reparing and installation of
+machines for plastic injection in DBLtec\footnote{ \href{http://www.dbltec.it/}{http://www.dbltec.it/}}
+. Allowed to modify part of the PLC program according to customer
+whishes.
+\newline Translated \emph{Use and Maintenance} manual of various products in english.
+\vspace{5pt}\\
+%\newline
+%
+%1999--2004 & {\bf De Bortoli W. - AGIP Oil Station nn\textsuperscript{\textopenbullet} 3610, 
+%Gas station attendant}
+%\\&
+%Tasks of gas station attendant and car washer.
+%\vspace{5pt}\\
+\end{longtable}
+
+%% education
+\section*{Education and Certifications}
+\begin{longtable}{L!{\VRule}R}
+Gen 2014 - March 2014&{\bf Image Processing,
+Udacity online course}\\
+&Result: passed (\href{https://polentino911.files.wordpress.com/2014/03/coursera-images-2014.pdf}{certificate link})\vspace{5pt}\\
+Gen 2014 - March 2014&{\bf Heterogeneous Parallel Programming,
+Udacity online course}\\
+&Result: passed (\href{https://polentino911.files.wordpress.com/2014/04/coursera-heterogeneous-parallel-programming-certificate-2014.pdf}{certificate link})\vspace{5pt}\\
+Feb 2013 - April 2013&{\bf nVidia CUDA\textsuperscript{\textregistered} computing,
+Udacity online course}\\
+&Result: passed\vspace{5pt}\\
+Jan 2013 - March 2013&{\bf Data Structure and Algorithms, Coursera online course}\\
+&Result: passed\vspace{5pt}\\
+2004--2012&{\bf Bachelor Degree in Control Systems, University of Padova.}\\
+&Final grade: $80/110$\vspace{5pt}\\
+1999--2004&{\bf Electrical engineering technician ed Industrial Automation Degree,
+ITIS "E. Barsanti", Castelfranco V.to}\\
+&Grade: $90/100$\vspace{5pt}
+\end{longtable}
+
+%% languages
+\section*{Languages}
+\begin{longtable}{L!{\VRule}R}
+Italian& Mother tongue\vspace{5pt}\\
+English&
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multicolumn{2}{|c|}{Comprehension} &
+\multicolumn{2}{c|}{Communication} &
+Writing \\
+\hline
+Hearing skills & Reading skills & Verbak Skills & Writing skills & \\
+B1 & B2 & B1 & A2 & B2\\
+\hline
+% \calligra{B1} & \calligra{B2} & \calligra{B1} & \calligra{A2} & \calligra{B2}\\
+\end{tabular}
+\end{longtable}
+
+
+%% computer skills
+\section*{Technical Skills}
+\begin{longtable}{L!{\VRule}R}
+Languages& Java, C++, QML, Assembly, C, Bash, SQL, PHP, JavaScript, Python, \LaTeX , HTML and CSS \vspace{5pt}\\
+Frameworks& Qt Toolkit, C++ STL, Java Swing, KDE Libraries, Boost Libraries, jQuery \vspace{5pt}\\
+Platforms& GNU/Linux such as CentOS and Ubuntu, Microsoft\textsuperscript{\textcopyright} Windows
+\textsuperscript{\textregistered} (XP/7) \vspace{5pt}\\
+Tools& QtCreator IDE, Eclipse IDE, Netbeans IDE, CMake,
+Git, Subversion, gdb, valgrind, callgrind, Linux shell commands\vspace{5pt}\\
+Other Competences& Embedded sistems simulation, Microchip PIC\textsuperscript{\textregistered} devices
+\end{longtable}
+
+%% additional info
+%\section*{Additional Information}
+%\begin{longtable}{L!{\VRule}R}
+%& As you can see from this resume\'e, I started working since I was young: I always wanted to
+%try on my own, in the real work, what I learned at school or university. That's why I always
+%tried to find a job that matched my courses.
+%\newline
+%In the meantime, with the help of some programming courses, I began to feel intrigued by
+%the Linux ecosystem, programming and opensource software. Sooner they became one of my most
+%rewarding and enjoyable hobbies, until I challenged myself to learn C++ and Qt on my own and
+%then partecipate to the Google Summer of Code initiative.
+%\newline
+%I enjoy tweaking my computer, I'm used to build KDE from scratch and use it for my daily job
+%and also personal tasks. I also have fun jogging and walking
+%on historical downtowns in my area with my fiance\'e.
+%\end{longtable}
+
+
+\end{document}
