@@ -1,6 +1,8 @@
 \documentclass[10pt]{article}
 \usepackage[margin=1.5cm]{geometry}
 \usepackage{longtable}
+% for linkedIn, githu logos. Requires texlive-fonts-extras and texlive-xetex
+\usepackage{fontawesome}
 
 \title{\bfseries{\Huge{Diego Casella}\newline \small Curriculum Vitae}}
 \author{}
@@ -30,6 +32,7 @@
 \begin{document}
 \vspace{10pt}
 
+
 %% name, mail and picture
 \begin{minipage}{0.65\textwidth}
 \begingroup
@@ -43,16 +46,16 @@ vicolo Bassanese 12\\
 Treviso
 \end{minipage}
 \begin{minipage}[ht]{0.48\textwidth}
-\Mobilefone \hspace{5pt}+39 333 7577127\\
 %\Info \hspace{5pt} polentino911.wordpress.com\\
-\\
-%\Letter \hspace{8pt}polentino911@gmail.com
-\Letter \hspace{8pt}diegocasella.mail@gmail.com
+\faLinkedinSign \hspace{5pt} \url{http://lnkdin.me/diegoc}\\
+\Letter \hspace{5pt}diegocasella.mail@gmail.com\\
+\Mobilefone \hspace{5pt}+39 333 7577127
 \end{minipage}
 \end{minipage}
 \begin{minipage}{0.3\textwidth}
 \includegraphics{foto_s.jpg}
 \end{minipage}
+
 
 %% info
 \section*{Info}
@@ -63,12 +66,13 @@ Nationality& Italian
 \vspace{5pt}
 \end{tabular}
 
+
 %% work experience
 \section*{Work Experience}
 \begin{longtable}{L!{\VRule}R}
-January 2014--&{\bf University of Padova, Department of Mathemaics}\\
-current& Research and collaboration activities, followed by the seminars below (freely available at
-\url{https://gitorious.org/unipd\_seminars/unipd\_seminars/}, italian only):
+January 2014--&{\bf University of Padova, Department of Mathematics}\\
+current& Research and collaboration activities, followed by the seminars\footnote{Freely available at
+\href{https://github.com/polentino/unipd\_seminars}{https://github.com/polentino/unipd\_seminars}, italian only} below:
 \begin{itemize}
  \item Co-Simulazione di un sistema di controllo a microcontrollore;
  \item Linguaggi e strumenti per applicativi software di simulazione intensiva;
@@ -96,8 +100,9 @@ its usability and User eXperience/Interface.
 \href{http://www.simnumerica.com/}{http://www.simnumerica.com/} (italian only)
 } srl to help developing a co-simulation software
 for embedded devices called $\mu$Lab\footnote{ \href{http://www.simnumerica.com/content/che-cos\%C3\%A8-mlab}{http://www.simnumerica.com/content/che-cos\'e-mlab} 
- (italian only)} 
- written in Java, with critical parts in C language.
+(italian version),
+\href{http://www.simnumerica.com/content/what-mlab}{http://www.simnumerica.com/content/what-mlab} (english version)} 
+written in Java, with critical parts in C language.
 \vspace{5pt}\\
 
 May--&{\bf Google Inc.}\\
@@ -140,6 +145,7 @@ whishes.
 %\vspace{5pt}\\
 \end{longtable}
 
+
 %% education
 \section*{Education and Certifications}
 \begin{longtable}{L!{\VRule}R}
@@ -161,6 +167,7 @@ ITIS "E. Barsanti", Castelfranco V.to}\\
 &Grade: $90/100$\vspace{5pt}
 \end{longtable}
 
+
 %% languages
 \section*{Languages}
 \begin{longtable}{L!{\VRule}R}
@@ -173,7 +180,7 @@ English&
 Writing \\
 \hline
 Hearing skills & Reading skills & Verbak Skills & Writing skills & \\
-B1 & B2 & B1 & A2 & B2\\
+B1 & B2 & B1 & B1 & B2\\
 \hline
 % \calligra{B1} & \calligra{B2} & \calligra{B1} & \calligra{A2} & \calligra{B2}\\
 \end{tabular}
@@ -189,7 +196,7 @@ Platforms& GNU/Linux such as CentOS and Ubuntu, Microsoft\textsuperscript{\textc
 \textsuperscript{\textregistered} (XP/7) \vspace{5pt}\\
 Tools& QtCreator IDE, Eclipse IDE, Netbeans IDE, CMake,
 Git, Subversion, gdb, valgrind, callgrind, Linux shell commands\vspace{5pt}\\
-Other Competences& Embedded sistems simulation, Microchip PIC\textsuperscript{\textregistered} devices
+Other Competences& Embedded sistems simulation, Microchip PIC\textsuperscript{\textregistered} devices programming
 \end{longtable}
 
 %% additional info
